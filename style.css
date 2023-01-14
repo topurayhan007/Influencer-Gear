@@ -1,0 +1,247 @@
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+}
+header,
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.fa-bars {
+  display: none;
+}
+.header {
+  margin-top: 50px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3a3a3a;
+}
+nav > ul {
+  display: flex;
+  gap: 34px;
+}
+ul li {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+
+/* Banner Section */
+.banner {
+  margin-top: 40px;
+  display: flex;
+  gap: 133px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+.heading-description {
+  margin: 16px auto;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+.btn-container {
+  display: flex;
+  align-items: flex-start;
+}
+.btn-primary {
+  padding: 10px 24px;
+  width: 196px;
+  height: 50px;
+  background: #e02c6d;
+  border-radius: 41px;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.landing-image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.banner-image-background {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+/* Website Link Section */
+.websites {
+  margin-top: 100px;
+}
+.websites hr {
+  border: 0.8px solid #eae7e7;
+}
+.logo-container {
+  margin: 36px 62px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 60px;
+}
+
+/* Collection Section */
+.collections {
+  margin-top: 100px;
+}
+.section-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+.collections-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.collection {
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.product-image {
+  width: 100%;
+}
+.product-name {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+}
+.product-price {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.fa-star,
+.fa-star-half-stroke {
+  color: #fb8200;
+}
+.product-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.018em;
+  color: #787885;
+}
+.rating-value {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #5e6366;
+}
+.anchor-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.anchor-container a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(224, 44, 109, 0.87);
+  text-decoration: none;
+}
+
+/* Featured Section */
+.featured {
+  margin-top: 100px;
+  display: flex;
+  gap: 96px;
+  align-items: center;
+}
+.featured-info-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: #0a0826;
+}
+.featured-info-description {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+.btn-secondary {
+  padding: 10px 24px;
+  width: 155px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 0;
+  background: #e02c6d;
+}
+button > i,
+a > i {
+  padding-left: 10px;
+}
+
+/* Footer Section */
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background: #0a0826;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Copyright Section */
+.copyright {
+  text-align: center;
+  color: #ffffff;
+  margin: 50px auto;
+}
+.social-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+}
