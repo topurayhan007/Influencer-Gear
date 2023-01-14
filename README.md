@@ -1,0 +1,2 @@
+# Influencer-Gear git init git add . git commit -m first commit git branch -M main git remote add origin https://github.com/topurayhan007/Influencer-Gear.git git push -u origin main
+# Influencer-Gear
