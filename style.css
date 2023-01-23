@@ -337,8 +337,8 @@ footer {
     align-items: center;
   }
 
-  .ham,
-  .cart {
+  .nav-brand-item:nth-child(1),
+  .nav-brand-item:nth-child(3) {
     display: none;
   }
   /* Banner Section */
@@ -376,8 +376,8 @@ footer {
   }
 }
 @media screen and (min-width: 993px) {
-  .ham,
-  .cart {
+  .nav-brand-item:nth-child(1),
+  .nav-brand-item:nth-child(3) {
     display: none;
   }
 }
