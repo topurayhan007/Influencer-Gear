@@ -376,7 +376,7 @@ footer {
   }
 }
 @media screen and (min-width: 993px) {
-  .fa-bars,
+  .ham,
   .cart {
     display: none;
   }
